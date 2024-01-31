@@ -1,0 +1,12 @@
+print("¡Hagamos arepas!")
+
+print("Por favor, ingrese los ingredientes de la arepa, y separelo por comas.")
+ingredientes = input("Ingredientes: ")
+
+lista_ingredientes = ingredientes.split(',')
+
+print("Los ingredientes necesarios de la arepa son:")
+for ingrediente in lista_ingredientes:
+    print("- " + ingrediente.strip())
+
+print("¡Ahora mezclalo todo y ponlo en la plancha!")
